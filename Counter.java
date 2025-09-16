@@ -8,8 +8,8 @@ public class Counter {
     public void increment(int val) {
         value += val;
     }
-
-    public void decement(int val) {
+    public void decrement(int val) {
+        value -= 1;
         value -= val;
     }
 }
