@@ -6,7 +6,7 @@ public class Counter {
     }
 
     public void increment(int val) {
-        value += val;
+        value += val * 2;
     }
     public void decrement(int val) {
         value -= 1;
